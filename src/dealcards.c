@@ -4,6 +4,9 @@
 
 #include "createDeck.h"
 #include "card.h"
+#include "drawCards.h"
+#include "compare.h"
+#include "shuffle.h"
 
 int main()
 {
