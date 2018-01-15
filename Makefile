@@ -4,7 +4,7 @@ OBJ_DIR = ./obj
 BIN_DIR = ./bin
 
 CC = gcc
-_OBJS = dealcards.o
+_OBJS = dealcards.o createDeck.o drawCards.o compare.o shuffle.o
 OBJS = $(patsubst %, $(OBJ_DIR)/%, $(_OBJS))
 _SRCS = $(patsubst %.o, %.c, $(_OBJS))
 SRCS = $(patsubst %, $(SRC_DIR)/%, $(_SRCS))
